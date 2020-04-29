@@ -1,4 +1,4 @@
-@import url('https://www.netmd.org/images/coronavirus.jpeg');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
 
 html, body {
     margin: 0;
@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 200px, rgba(245, 245, 245, 0.9) 300px, rgba(252, 252, 252, 1) 400px), url('https://static.iris.net.co/semana/upload/images/2019/4/8/608616_1.jpg');
+    background: linear-gradient(180deg, rgba(245, 220, 245, 0.6) 200px, rgba(245, 245, 212, 0.9) 300px, rgba(200, 252, 252, 1) 40px), url('https://img2.eltipografo.cl/media/2020/03/coronavirus2.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -19,11 +19,11 @@ body {
 a {
     font-weight: 500;
     text-decoration: underline;
-    color: #000;
+    color: #f40b16;
 }
 
-a:hover {
-    text-decoration: none;
+a[href$=".pdf"]
+    color:#000
 }
 
 h1 {
@@ -259,10 +259,4 @@ footer {
 
 .derecha {
     float: right;
-}
-@font-face {
-  font-family: <'Shadows Into Light', cursive;>;
-  src: url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-  [font-weight: <300>];
-  [font-style: <normal>];
 }
