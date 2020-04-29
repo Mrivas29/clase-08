@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>COVID 19 en Chile</title>
+</head>
+
+<body>
+    <nav>
+      <select onchange="if (this.value) window.location.href=this.value">
+          <option value="index.html">Página de portada</option>
+          <option value="page-1.html" selected>Primera página</option>
+          <option value="page-2.html">Segunda página</option>
+          <option value="page-3.html">Tercera página</option>
+      </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">COVID 19 las regiones más afectadas</a></h1>
+            <h3>Aumento en casos nuevos y totales. </h3>
+            <h5>10 de Abril  de 2020</h5>
+            <hr>Casos nuevos y totales liderados por la región Metropolitana, ha aumentando progresivamente en estas ultimas semanas.
+        </header>
+        <section>
+            <p>.</p>
+            <blockquote cite="https://psicologiaymente.com/reflexiones/frases-famosas">
+                <p>Región Metropolitana lidera los casos nuevos (295) y casos totales (6.083)</p>
+                <footer><a href="https://psicologiaymente.com/reflexiones/frases-famosas">información entregada por Seremi de Salud</a></footer>
+            </blockquote>
+            <p> .Esta situación se puede ver reflejada por la diferencia que existe en las comunas de Santiago.</p>
+            <h2>Top 3 regiones</h2>
+            <p>regiones más afectadas por el covid 19 en casos totales:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Metropolitana con 6.083</li>
+                <li>Araucanía con 1.113</li>
+                <li>Ñuble con 703</li>
+            </ul>
+            <p>En la siguiente imagen el caso total de las regiones a nivel nacional.</p>
+            <figure>
+                <img src="https://as01.epimg.net/chile/imagenes/2020/04/10/tikitakas/1586524305_117892_1586533831_noticia_normal.jpg" alt="esto es un cuadro gris claro">
+                <figcaption>Casos totales Chile.</figcaption>
+            </figure>
+            <p>Puedes revisar los datos publicados por el ICVU en relación a todas las comunas de Chile. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Martina Rivas &copy; 2020 <span class="derecha">Octava clase, enfocada en <abbr title="Cascading Style Sheets">css</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
