@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;500&family=IBM+Plex+Serif:ital,wght@1,200&display=swap');
+@import url('https://www.netmd.org/images/coronavirus.jpeg');
 
 html, body {
     margin: 0;
@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 100px, rgba(245, 245, 245, 0.9) 200px, rgba(252, 252, 252, 1) 300px), url('https://www.paho.org/sites/default/files/styles/flexslider_full/public/hero/2020-03/covid-19-1190x574-2-full.jpg');
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 200px, rgba(245, 245, 245, 0.9) 300px, rgba(252, 252, 252, 1) 400px), url('https://static.iris.net.co/semana/upload/images/2019/4/8/608616_1.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -259,4 +259,10 @@ footer {
 
 .derecha {
     float: right;
+}
+@font-face {
+  font-family: <'Shadows Into Light', cursive;>;
+  src: url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+  [font-weight: <300>];
+  [font-style: <normal>];
 }
