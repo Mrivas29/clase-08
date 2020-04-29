@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 200px, rgba(245, 245, 245, 0.9) 300px, rgba(252, 252, 252, 1) 400px), url('https://static.iris.net.co/semana/upload/images/2019/4/8/608616_1.jpg');
+    background: linear-gradient(180deg, rgba(245, 245, 255, 0.6) 200px, rgba(245, 245, 255, 0.9) 300px, rgba(250, 248, 250, 1) 400px), url('https://ichef.bbci.co.uk/news/720/cpsprodpb/4B4D/production/_111277291_gettyimages-1204224469.jpg');
     background-size: 100% auto;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
@@ -25,6 +25,8 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+/* podría ser por acá a[]*/
 
 h1 {
     font-family: Georgia, serif;
@@ -259,10 +261,4 @@ footer {
 
 .derecha {
     float: right;
-}
-@font-face {
-  font-family: <'Shadows Into Light', cursive;>;
-  src: url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-  [font-weight: <300>];
-  [font-style: <normal>];
 }
